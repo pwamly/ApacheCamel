@@ -1,0 +1,25 @@
+Day 1 - Oct 9 2025
+
+Introduction:
+Enterprises has 100 or 1000s of applications which has:
+- Complex communication patterns
+- Varieties of transports : Http,ques
+- Variety of protocols Http,JMS,AMQP
+
+Evolution of cloud  and Microservices makes Enterprise integration more complex
+How can we simplify  Enterprise integration?==>>>>>>>> (To follow Enterprise integration patterns.)
+
+Apachel camel follows EIP standards.
+
+
+APACHEL CAMEL:
+==> It an Open source integration framework 
++++ It is easly integrates systems consuming or producing data.
++++ It is inspired by a book called "Enterprises integration patterns" by Gregor Hohpe and Bobby Woolf
+
+Advantage:
+- It is very Lean (light weght and Extensible).
+- You can integrate all these transports and protocols but still light because it uses "Components architecture" this keeps footprint low
+- It provide  100+ components  for databases,message ques, APIs, cloud integration
+- It also support 200+ protocols, transports and data formats (& 300+ converters)
+
