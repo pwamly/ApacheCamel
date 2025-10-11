@@ -23,3 +23,22 @@ Advantage:
 - It provide  100+ components  for databases,message ques, APIs, cloud integration
 - It also support 200+ protocols, transports and data formats (& 300+ converters)
 
+
+
+Practical:
+- we use start.spring.io
+Group: com.in28minitus.microservices
+Artifact: camel-microservices-a
+Name : camel-microservices-a
+Description : Demo project for camel
+Package name : com.in28minitus.microservices.camel-microservices-a
+
+Dependencies:
+- Spring Boot DevTools Developer Tools
+  Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+
+- Spring Web Web
+  Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
+
+- Spring Boot Actuator Ops
+  Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
