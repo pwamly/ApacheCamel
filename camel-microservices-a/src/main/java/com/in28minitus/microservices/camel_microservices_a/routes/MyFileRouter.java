@@ -1,0 +1,18 @@
+package com.in28minitus.microservices.camel_microservices_a.routes;
+
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyFileRouter extends RouteBuilder{
+
+    @Override
+    public void configure() throws Exception {
+         from("file:files/input")
+         .log("file contnts + ${body}")
+        .to("file:files/output");
+
+
+    }
+    
+}
