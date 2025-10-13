@@ -1,0 +1,5 @@
+# Ignore the binary tarball
+apache-activemq-5.15.0-bin.tar.gz
+
+# Ignore the extracted directory
+apache-activemq-5.15.0/
