@@ -8,7 +8,7 @@ public class MyFileRouter extends RouteBuilder{
 
     @Override
     public void configure() throws Exception {
-         from("file:files/input")
+         from("file:files2/input")
          .log("file contnts + ${body}")
         .to("file:files/output");
 

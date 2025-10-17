@@ -6,13 +6,22 @@ import org.springframework.stereotype.Component;
 @Component
 public class ActiveMqSenderRouter extends RouteBuilder {
 
+    // @Override
+    // public void configure() throws Exception {
+    // //timer
+    // from("timer:active-mq-timer?period=10000")
+    // .transform().constant("my message for active Mq")
+    // .log("${body}")
+    // .to("activemq:my-activemq-queue");
+    // //que
+    // }
+
     @Override
     public void configure() throws Exception {
     //timer
-    from("timer:active-mq-timer?period=10000")
-    .transform().constant("my message for active Mq")
+    from("file:/home/stephano/Desktop/ApacheCamel/files/json")
     .log("${body}")
-    .to("activemq:my-activemq-queue");
+    .to("activemq:my-activemq-xml-queue");
     //que
     }
     

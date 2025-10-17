@@ -42,3 +42,24 @@ Dependencies:
 
 - Spring Boot Actuator Ops
   Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.
+
+
+  sudo update-alternatives --config java
+
+  
+  Oct 13 2025
+
+  camel terminlogies:
+ camel contex-(0--n)Routes+Components
+ - Endpoints - a reference to a q,db or file
+ - Route - Is a connection btn endpoints,processor and Transformer(s)
+ - Components - Extension ie (Kafka,json,JMS etc)
+
+ Transformation - Data format  transformation - xml to json
+                - Data type transformation ie from string to  curencyconversion
+
+Message - is the combination of body,headers and attachments
+Exchange - Request and response
+      - Exchange Id 
+      - Message  Exchange Pattern (MEP) - InOnly amd InOut
+      - Input Message  and (Optional) output message
