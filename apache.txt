@@ -63,3 +63,17 @@ Exchange - Request and response
       - Exchange Id 
       - Message  Exchange Pattern (MEP) - InOnly amd InOut
       - Input Message  and (Optional) output message
+
+
+      camel doc : https://camel.apache.org/components/4.14.x/languages/simple-language.html
+
+
+      Exploring  Apache  Camel  Enterprise  integration patterns:
+
+      a) Pipline pattern -it isi supported by default  by camel
+         .pipeline() -it is default it send to one endpoint InOnly
+      b) Muticasting - it allow to send to more than one endpoints eg to("log:log1","log:log2) ech of child will get same copy of messages
+      c) content based routing pattern eg the choice()
+      d) Split pattern eg csv lines can be splited into separate message
+      e) Aggregate messages pattern
+
